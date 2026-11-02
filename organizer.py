@@ -1,6 +1,8 @@
+# Сортировщик загрузок
+
 from pathlib import Path
 
-downloads_dir = Path.home() / 'sandbox'
+downloads_dir = Path.home() / 'Downloads'
 perevod = {
     'documents': ['txt', 'pdf'],
     'images': ['png', 'jpg'],
